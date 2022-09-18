@@ -137,25 +137,32 @@ numbers = [1, 5, 11, 10, 36, 5, 2, 7]
 # print("It is a number!")
 
 
-class Square:
-    def __init__(self, height="0", width="0"):
-        self.height = height
-        self.width = width
+# class Square:
+#     def __init__(self, height="0", width="0"):
+#         self.height = height
+#         self.width = width
 
-    @property
-    def height(self):
-        print("Getting the height!")
-        return self.__height
+#     @property
+#     def height(self):
+#         print("Getting the height!")
+#         return self.__height
 
-    @height.setter
-    def height(self, value):
-        if value.isdigit():
-            self.__height = value
-        else:
-            print("Please only enter numbers!")
+#     @height.setter
+#     def height(self, value):
+#         if value.isdigit():
+#             self.__height = value
+#         else:
+#             print("Please only enter numbers!")
 
 
-bigBoi = Square()
+# bigBoi = Square()
 
-bigBoi.height = "10"
-print(bigBoi.height)
+# bigBoi.height = "10"
+# print(bigBoi.height)
+
+# Python program for implementation of MergeSort
+
+# Merges two subarrays of arr[].
+# First subarray is arr[l..m]
+# Second subarray is arr[m+1..r]
+#poop
