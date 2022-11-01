@@ -1,6 +1,7 @@
 import os
 import math
 from functools import reduce
+from tokenize import Double
 
 # x = [5, 43, 2]
 
@@ -28,7 +29,7 @@ from functools import reduce
 # middleName = "Dongmin"
 # lastName = "Seo"
 
-names = ["Joseph", "Dongmin", "Seo"]
+# names = ["Joseph", "Dongmin", "Seo"]
 # print("-".join(names))
 
 # meat = "chicken"
@@ -165,4 +166,9 @@ numbers = [1, 5, 11, 10, 36, 5, 2, 7]
 # Merges two subarrays of arr[].
 # First subarray is arr[l..m]
 # Second subarray is arr[m+1..r]
-#poop
+# poop
+
+s = "123"
+
+f = list(map(float, s))
+print(f)
